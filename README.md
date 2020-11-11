@@ -1,5 +1,5 @@
 # Vigil
-Vigil is an open source monitoring solution for Linux/*Nix and Windows.
+Vigil is an open source monitoring solution for Linux and Windows.
 
 ## Compiling
 
