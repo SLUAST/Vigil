@@ -8,7 +8,9 @@ We all know that code should be self explainatory, but readme's are still mandat
 Name: SELinux Verifier
 Description: A probe checking if SELinux is running or not. Can be configured to
 force enablement of SELinux of choosen.
+
 Author: John Doe
+
 Contact: example@email.com
 
 ### [installation]
@@ -27,11 +29,14 @@ Contact: example@email.com
     Or run the <code> $PLUGINS_DIR/selinux -c enabled </code> command from the terminal/command line.
 
 ### [MAN Page]
-  ./selinux --critical [-c] "<string>" --warning [-w] "<string>" 
 
-	--critical [-c] :
+
+	--critical [-c] : String that will cause the probe to return a Critical state
 	
-	--warning [-w} : 
+	--warning [-w] : String that will cause the probe to return a Warning state
+### [MAN Page - Example]
+
+
 
 ### [Output interpretation]
 	Return codes:
